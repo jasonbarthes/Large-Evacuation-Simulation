@@ -38,6 +38,14 @@ We recommend you run this project in your own IDE. Otherwise you need to put ani
 - Add your Earth Engine project code:
   ```python
   ee.Initialize(project='')
+- Add your api keys at:
+  ```python
+  api_key_data = {
+    "matrix_api_key": "",
+    "distance_api_key": "",
+    "openai_api_key": ""
+  }
+
 ### In animation.py:
 - To change the number of cars generated at each starting point, adjust:
   ```python
